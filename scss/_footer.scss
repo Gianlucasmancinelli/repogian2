@@ -1,0 +1,106 @@
+.piepagina {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    column-gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(209, 138, 44, 0.61);
+    color: white;
+    margin-top: 10px;
+
+
+    img {
+        width: 200px;
+    }
+
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+
+        .piepagina .contactos p {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 10px;
+        }
+    }
+
+    .info {
+        .descripcion img {
+            float: left;
+            margin: 10px;
+        }
+    }
+
+    .contactos .mapa {
+        width: 70%;
+        height: 200px;
+        border-radius: 10px;
+
+    }
+
+    .redes {
+        i{
+            font-size: 40px;
+        }
+        :nth-child(1) {
+            font-size: 52px;
+            margin: 10px;
+            color: #25D366;
+        }
+
+        :nth-child(2) {
+            font-size: 52px;
+            margin: 10px;
+            color: #3b5998;
+        }
+    
+        @media(max-width:992px) {
+            grid-column: auto;
+
+        }
+
+    }
+
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media(max-width:917px) {
+    .piepagina {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+}

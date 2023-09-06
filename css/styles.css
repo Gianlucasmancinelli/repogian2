@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nutricion a {
+  text-decoration: none;
+}
+.nutricion h1 {
+  font-size: 35px;
+  color: rgba(209, 138, 44, 0.61);
+  text-align: center;
+  margin: 20px 10px;
+  line-height: 3px;
+}
+
+.navbar-collapse {
+  margin: 0 30px;
+}
+
+.object-fit-contain {
+  width: 100%;
+}
+.object-fit-contain video {
+  width: 100%;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 30px;
+}
+
+.tarjeta {
+  width: 350px;
+  height: 657px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.tarjeta h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.tarjeta p {
+  font-size: 15px;
+}
+.tarjeta img {
+  width: 300px;
+}
+.tarjeta .precio-boton p {
+  font-size: 40px;
+  color: green;
+}
+.tarjeta .precio-boton button {
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgba(209, 138, 44, 0.61);
+}
+
+.subtitulo h2 {
+  margin: 15px;
+  padding: 15px;
+  font-size: 48px;
+  color: black;
+}
+
+.subtitulo {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitulo h2 {
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 38px;
+  color: black;
+}
+
+.piepagina {
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  column-gap: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(209, 138, 44, 0.61);
+  color: white;
+  margin-top: 10px;
+}
+.piepagina img {
+  width: 200px;
+}
+.piepagina .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.piepagina .info .piepagina .contactos p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.piepagina .info .descripcion img {
+  float: left;
+  margin: 10px;
+}
+.piepagina .contactos .mapa {
+  width: 70%;
+  height: 200px;
+  border-radius: 10px;
+}
+.piepagina .redes i {
+  font-size: 40px;
+}
+.piepagina .redes :nth-child(1) {
+  font-size: 52px;
+  margin: 10px;
+  color: #25D366;
+}
+.piepagina .redes :nth-child(2) {
+  font-size: 52px;
+  margin: 10px;
+  color: #3b5998;
+}
+@media (max-width: 992px) {
+  .piepagina .redes {
+    grid-column: auto;
+  }
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 917px) {
+  .piepagina {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
