@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.historia {
+
+    p {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 20px 0px;
+        font-size: 25px;
+
+    }
+}
+
+.fabricacion {
+    h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+.creacionproductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    font-size: 25px;
+}
