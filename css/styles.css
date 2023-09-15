@@ -211,7 +211,7 @@ h2 {
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
   column-gap: 15px;
-  padding: 10px;
+  margin-top: 15px;
   align-items: center;
   justify-items: center;
   background-color: rgba(209, 138, 44, 0.61);
@@ -226,14 +226,13 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 .piepagina .info .piepagina .contactos p {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 10px;
+  gap: 30px;
 }
 .piepagina .info .descripcion img {
   float: left;
@@ -273,7 +272,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 917px) {
